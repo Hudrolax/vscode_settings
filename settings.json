@@ -1,0 +1,412 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "window.zoomLevel": 1,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "onFocusChange",
+    "python.defaultInterpreterPath": "python3",
+    "python.venvFolders": [
+        "venv",
+        "env"
+    ],
+    "python.condaPath": "conda",
+    "php.validate.executablePath": "",
+    "jshint.config": "",
+    "jshint.options": {
+        "esversion": 6
+    },
+    "editor.fontFamily": "JetBrains Mono NL",
+    "jupyter.themeMatplotlibPlots": true,
+    "vim.enableNeovim": true,
+    "vim.statusBarColors.easymotioninputmode": "",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                ".",
+                ".",
+            ],
+            "after": [
+                "<Esc>",
+                "l",
+                "a",
+                "."
+            ]
+        },
+        {
+            "before": [
+                ".",
+                ".",
+                ".",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                "."
+            ]
+        },
+        {
+            "before": [
+                ",",
+                ",",
+            ],
+            "after": [
+                "<Esc>",
+                "l",
+                "a",
+                ","
+            ]
+        },
+        {
+            "before": [
+                ",",
+                ",",
+                ",",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                ","
+            ]
+        },
+        {
+            "before": [
+                "f",
+                "'",
+            ],
+            "after": [
+                "f",
+                "'",
+                "'",
+                "<Esc>",
+                "i",
+            ]
+        },
+        {
+            "before": [
+                ":",
+                "<cr>",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                ":",
+                "\n",
+            ]
+        },
+        {
+            "before": [
+                ";",
+                "<cr>",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                ";",
+                "\n",
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "<cr>",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                ",",
+                "\n",
+            ]
+        },
+        {
+            "before": [
+                ";",
+                ";",
+            ],
+            "after": [
+                "<Esc>",
+                "l",
+                "a",
+                ";",
+                " ",
+            ]
+        },
+        {
+            "before": [
+                ":",
+                ":",
+            ],
+            "after": [
+                "<Esc>",
+                "l",
+                "a",
+                ":",
+                " ",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "<space>",
+            ],
+            "after": [
+                "<Esc>",
+                "l",
+                "a",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "<space>",
+                "<space>",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+            ]
+        },
+        {
+            "before": [
+                "=",
+                ">",
+                "<space>",
+                "<space>",
+            ],
+            "after": [
+                "<Esc>",
+                "l",
+                "a",
+                " ",
+                "=",
+                ">",
+                " ",
+                "{",
+                "}",
+                ";",
+                "<Esc>",
+                "h",
+                "i",
+                "<cr>",
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "leader",
+                "/",
+            ],
+            "commands": [
+                {
+                    "command": "editor.action.commentLine",
+                    "when": "editorTextFocus && !editorReadonly",
+                },
+                {
+                    "command": "extension.vim_escape",
+                },
+            ],
+        },
+        {
+            "before": [
+                "(",
+            ],
+            "after": [
+                "c",
+                "(",
+                ")",
+                "<Esc>",
+                "h",
+                "p",
+            ]
+        },
+        {
+            "before": [
+                "[",
+            ],
+            "after": [
+                "c",
+                "[",
+                "]",
+                "<Esc>",
+                "h",
+                "p",
+            ]
+        },
+        {
+            "before": [
+                "{",
+            ],
+            "after": [
+                "c",
+                "{",
+                "}",
+                "<Esc>",
+                "h",
+                "p",
+            ]
+        },
+        {
+            "before": [
+                "'",
+            ],
+            "after": [
+                "c",
+                "'",
+                "'",
+                "<Esc>",
+                "h",
+                "p",
+            ]
+        },
+        {
+            "before": [
+                "`",
+            ],
+            "after": [
+                "c",
+                "`",
+                "`",
+                "<Esc>",
+                "h",
+                "p",
+            ]
+        },
+        {
+            "before": [
+                "\"",
+            ],
+            "after": [
+                "c",
+                "\"",
+                "\"",
+                "<Esc>",
+                "h",
+                "p",
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "L",
+            ],
+            "after": [
+                "$",
+            ]
+        },
+        {
+            "before": [
+                "H",
+            ],
+            "after": [
+                "0",
+            ]
+        },
+        {
+            "before": [
+                "<Enter>",
+            ],
+            "after": [
+                "o",
+                "<Esc>",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "l",
+                "f",
+            ],
+            "commands": [
+                "editor.action.formatDocument",
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save",
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "b",
+                "n"
+            ],
+            "commands": [
+                ":tabnext"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "b",
+                "b"
+            ],
+            "commands": [
+                ":tabprev"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "e",
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.closeSidebar",
+                    "when": "explorerViewletVisible",
+                },
+                {
+                    "command": "workbench.view.explorer",
+                    "when": "!explorerViewletVisible",
+                }
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "/",
+            ],
+            "commands": [
+                {
+                    "command": "editor.action.commentLine",
+                    "when": "editorTextFocus && !editorReadonly",
+                },
+            ]
+        },
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-a>": false,
+        "<C-e>": false,
+        "<A-j>": false,
+        "<A-k>": false,
+    },
+    "editor.cursorBlinking": "solid",
+    "editor.lineNumbers": "relative",
+}
