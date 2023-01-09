@@ -409,4 +409,15 @@
     },
     "editor.cursorBlinking": "solid",
     "editor.lineNumbers": "relative",
+    "vim.highlightedyank.color":"rgba(250, 240, 70, 0.5)",
+    "vim.highlightedyank.duration": 200,
+    "vim.highlightedyank.enable": true,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.insert": "#5f0000",
+    "vim.statusBarColors.visual": "#d9803d",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
 }
