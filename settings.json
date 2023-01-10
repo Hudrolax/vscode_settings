@@ -398,6 +398,18 @@
                 },
             ]
         },
+        {
+            "before": [
+                "leader",
+                "c",
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    // "when": "editorTextFocus && !editorReadonly",
+                },
+            ]
+        },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
@@ -420,4 +432,7 @@
         "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f"
     },
+    "openInApplication.applications": {
+        "html": ["Google Chrome"] // Ask which application to use when opening html files
+      }
 }
