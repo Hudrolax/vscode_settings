@@ -28,7 +28,7 @@
         {
             "before": [
                 "j",
-                "j"
+                "k"
             ],
             "after": [
                 "<Esc>"
@@ -49,6 +49,19 @@
         {
             "before": [
                 ".",
+                "leader",
+                "leader",
+            ],
+            "after": [
+                "<Esc>",
+                "l",
+                "a",
+                "."
+            ]
+        },
+        {
+            "before": [
+                ".",
                 ".",
                 ".",
             ],
@@ -61,6 +74,47 @@
         },
         {
             "before": [
+                ".",
+                "leader",
+                "leader",
+                "leader",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                "."
+            ]
+        },
+        {
+            "before": [
+                ".",
+                "<cr>",
+                "<cr>",
+            ],
+            "after": [
+                "<right>",
+                ".",
+                "<cr>"
+            ]
+        },
+        {
+            "before": [
+                ".",
+                "<cr>",
+                "<cr>",
+                "<cr>",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                ".",
+                "<cr>"
+            ]
+        },
+        {
+            "before": [
                 ",",
                 ",",
             ],
@@ -74,6 +128,18 @@
         {
             "before": [
                 ",",
+                "leader",
+                "leader",
+            ],
+            "after": [
+                "<right>",
+                ",",
+                " "
+            ]
+        },
+        {
+            "before": [
+                ",",
                 ",",
                 ",",
             ],
@@ -82,6 +148,47 @@
                 "$",
                 "a",
                 ","
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "leader",
+                "leader",
+                "leader",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                ","
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "<cr>",
+                "<cr>",
+            ],
+            "after": [
+                "<right>",
+                ",",
+                "<cr>"
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "<cr>",
+                "<cr>",
+                "<cr>",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                ",",
+                "<cr>"
             ]
         },
         {
@@ -101,6 +208,8 @@
             "before": [
                 ":",
                 "<cr>",
+                "<cr>",
+                "<cr>",
             ],
             "after": [
                 "<Esc>",
@@ -112,7 +221,21 @@
         },
         {
             "before": [
+                ":",
+                "<cr>",
+                "<cr>",
+            ],
+            "after": [
+                "<right>",
+                ":",
+                "\n",
+            ]
+        },
+        {
+            "before": [
                 ";",
+                "<cr>",
+                "<cr>",
                 "<cr>",
             ],
             "after": [
@@ -125,6 +248,19 @@
         },
         {
             "before": [
+                ";",
+                "<cr>",
+                "<cr>",
+            ],
+            "after": [
+                "<right>",
+                ";",
+                "\n",
+            ]
+        },
+        {
+            "before": [
+                ",",
                 ",",
                 "<cr>",
             ],
@@ -151,13 +287,48 @@
         },
         {
             "before": [
+                ";",
+                "leader",
+                "leader",
+            ],
+            "after": [
+                "<right>",
+                ";",
+            ]
+        },
+        {
+            "before": [
+                ";",
+                "leader",
+                "leader",
+                "leader",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                ";",
+            ]
+        },
+        {
+            "before": [
                 ":",
                 ":",
             ],
             "after": [
-                "<Esc>",
-                "l",
-                "a",
+                "<right>",
+                ":",
+                " ",
+            ]
+        },
+        {
+            "before": [
+                ":",
+                "leader",
+                "leader",
+            ],
+            "after": [
+                "<right>",
                 ":",
                 " ",
             ]
@@ -168,9 +339,7 @@
                 "<space>",
             ],
             "after": [
-                "<Esc>",
-                "l",
-                "a",
+                "<right>",
             ]
         },
         {
@@ -193,20 +362,15 @@
                 "<space>",
             ],
             "after": [
-                "<Esc>",
-                "l",
-                "a",
+                "<right>",
                 " ",
                 "=",
                 ">",
                 " ",
                 "{",
                 "}",
-                ";",
                 "<Esc>",
-                "h",
                 "i",
-                "<cr>",
             ]
         },
     ],
@@ -434,5 +598,5 @@
     },
     "openInApplication.applications": {
         "html": ["Google Chrome"] // Ask which application to use when opening html files
-      }
+    },
 }
