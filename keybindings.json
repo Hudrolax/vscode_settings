@@ -83,27 +83,27 @@
     {
         "key": "d",
         "command": "deleteFile",
-        "when": "workbench.explorer.fileView.active && !editorTextFocus && explorerViewletVisible && sideBarFocus"
+        "when": "workbench.explorer.fileView.active && !editorTextFocus && explorerViewletVisible && sideBarFocus && !inputFocus"
     },
     {
         "key": "r",
         "command": "renameFile",
-        "when": "workbench.explorer.fileView.active && !editorTextFocus && explorerViewletVisible && sideBarFocus"
+        "when": "workbench.explorer.fileView.active && !editorTextFocus && explorerViewletVisible && sideBarFocus && !inputFocus"
     },
     {
         "key": "a",
         "command": "explorer.newFile",
-        "when": "workbench.explorer.fileView.active && !editorTextFocus && explorerViewletVisible && sideBarFocus"
+        "when": "workbench.explorer.fileView.active && !editorTextFocus && explorerViewletVisible && sideBarFocus && !inputFocus"
     },
     {
         "key": "shift+a",
         "command": "explorer.newFolder",
-        "when": "workbench.explorer.fileView.active && !editorTextFocus && explorerViewletVisible && sideBarFocus"
+        "when": "workbench.explorer.fileView.active && !editorTextFocus && explorerViewletVisible && sideBarFocus && !inputFocus"
     },
     {
         "key": "s",
         "command": "openInExternalApp.open",
-        "when": "workbench.explorer.fileView.active && !editorTextFocus && explorerViewletVisible && sideBarFocus"
+        "when": "workbench.explorer.fileView.active && !editorTextFocus && explorerViewletVisible && sideBarFocus && !inputFocus"
     },
     {
         "key": "ctrl+l",
