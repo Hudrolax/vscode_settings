@@ -37,38 +37,11 @@
         {
             "before": [
                 ".",
-                ".",
-            ],
-            "after": [
-                "<Esc>",
-                "l",
-                "a",
-                "."
-            ]
-        },
-        {
-            "before": [
-                ".",
                 "leader",
                 "leader",
             ],
             "after": [
-                "<Esc>",
-                "l",
-                "a",
-                "."
-            ]
-        },
-        {
-            "before": [
-                ".",
-                ".",
-                ".",
-            ],
-            "after": [
-                "<Esc>",
-                "$",
-                "a",
+                "<right>",
                 "."
             ]
         },
@@ -111,18 +84,6 @@
                 "a",
                 ".",
                 "<cr>"
-            ]
-        },
-        {
-            "before": [
-                ",",
-                ",",
-            ],
-            "after": [
-                "<Esc>",
-                "l",
-                "a",
-                ","
             ]
         },
         {
@@ -140,19 +101,6 @@
         {
             "before": [
                 ",",
-                ",",
-                ",",
-            ],
-            "after": [
-                "<Esc>",
-                "$",
-                "a",
-                ","
-            ]
-        },
-        {
-            "before": [
-                ",",
                 "leader",
                 "leader",
                 "leader",
@@ -161,7 +109,8 @@
                 "<Esc>",
                 "$",
                 "a",
-                ","
+                ",",
+                "<Esc>",
             ]
         },
         {
@@ -207,124 +156,6 @@
         {
             "before": [
                 ":",
-                "<cr>",
-                "<cr>",
-                "<cr>",
-            ],
-            "after": [
-                "<Esc>",
-                "$",
-                "a",
-                ":",
-                "\n",
-            ]
-        },
-        {
-            "before": [
-                ":",
-                "<cr>",
-                "<cr>",
-            ],
-            "after": [
-                "<right>",
-                ":",
-                "\n",
-            ]
-        },
-        {
-            "before": [
-                ";",
-                "<cr>",
-                "<cr>",
-                "<cr>",
-            ],
-            "after": [
-                "<Esc>",
-                "$",
-                "a",
-                ";",
-                "\n",
-            ]
-        },
-        {
-            "before": [
-                ";",
-                "<cr>",
-                "<cr>",
-            ],
-            "after": [
-                "<right>",
-                ";",
-                "\n",
-            ]
-        },
-        {
-            "before": [
-                ",",
-                ",",
-                "<cr>",
-            ],
-            "after": [
-                "<Esc>",
-                "$",
-                "a",
-                ",",
-                "\n",
-            ]
-        },
-        {
-            "before": [
-                ";",
-                ";",
-            ],
-            "after": [
-                "<Esc>",
-                "l",
-                "a",
-                ";",
-                " ",
-            ]
-        },
-        {
-            "before": [
-                ";",
-                "leader",
-                "leader",
-            ],
-            "after": [
-                "<right>",
-                ";",
-            ]
-        },
-        {
-            "before": [
-                ";",
-                "leader",
-                "leader",
-                "leader",
-            ],
-            "after": [
-                "<Esc>",
-                "$",
-                "a",
-                ";",
-                "<Esc>",
-            ]
-        },
-        {
-            "before": [
-                ":",
-                ":",
-            ],
-            "after": [
-                "<right>",
-                ":",
-                " ",
-            ]
-        },
-        {
-            "before": [
-                ":",
                 "leader",
                 "leader",
             ],
@@ -332,6 +163,86 @@
                 "<right>",
                 ":",
                 " ",
+            ]
+        },
+        {
+            "before": [
+                ":",
+                "<cr>",
+                "<cr>",
+            ],
+            "after": [
+                "<right>",
+                ":",
+                "\n",
+            ]
+        },
+        {
+            "before": [
+                ":",
+                "<cr>",
+                "<cr>",
+                "<cr>",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                ":",
+                "\n",
+            ]
+        },
+        {
+            "before": [
+                ";",
+                "<cr>",
+                "<cr>",
+                "<cr>",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                ";",
+                "\n",
+            ]
+        },
+        {
+            "before": [
+                ";",
+                "<cr>",
+                "<cr>",
+            ],
+            "after": [
+                "<right>",
+                ";",
+                "\n",
+            ]
+        },
+        {
+            "before": [
+                ";",
+                "leader",
+                "leader",
+            ],
+            "after": [
+                "<right>",
+                ";",
+            ]
+        },
+        {
+            "before": [
+                ";",
+                "leader",
+                "leader",
+                "leader",
+            ],
+            "after": [
+                "<Esc>",
+                "$",
+                "a",
+                ";",
+                "<Esc>",
             ]
         },
         {
@@ -372,6 +283,22 @@
                 "}",
                 "<Esc>",
                 "i",
+            ]
+        },
+        {
+            "before": [
+                "{",
+                "<cr>",
+                "<cr>",
+            ],
+            "after": [
+                "<right>",
+                " ",
+                "{",
+                "}",
+                "<Esc>",
+                "i",
+                "<cr>"
             ]
         },
     ],
@@ -597,4 +524,9 @@
         "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f"
     },
+    "prettier.semi": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
 }
